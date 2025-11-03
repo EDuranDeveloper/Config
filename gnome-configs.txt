@@ -1,0 +1,16 @@
+# Dock oculto automáticamente
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
+
+# Sensibilidad al borde (aparece al tocar el borde)
+gsettings set org.gnome.shell.extensions.dash-to-dock pressure-threshold 1
+
+# Modo inteligente de ocultamiento (que se oculte solo cuando ventanas lo tapen)
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide true
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide-mode 'ALL_WINDOWS'
+
+# Posición abajo
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+
+# Mostrar icono de aplicaciones
+gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top false
